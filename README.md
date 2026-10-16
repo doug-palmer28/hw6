@@ -140,7 +140,7 @@ hw6/
 | Practice documents with all defenses | **12/12 right**, up from 8/12 with no defenses |
 | Exam | 5 recommend, 5 do not recommend, **0 trap calls** |
 | Doug's red-team attacks | protected agent held on **6/6** after fixes (was 3/6) |
-| Regression suite | 170/170 checks passed |
+| Regression suite | 170/170 checks passed in the recorded live run (a fresh clone runs 118 free offline checks; the rest used local extra test files) |
 | Cost at 1,000 documents a day | about **$10 a month** with prompt caching |
 
 Details are in [`output/hw6_report.html`](output/hw6_report.html) and the `output/*.md` write-ups.
