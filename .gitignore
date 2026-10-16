@@ -1,0 +1,15 @@
+# Secrets: the real key lives in .env (copy .env.example to .env). Never commit it.
+.env
+
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# The course data zip (its contents are already in data/)
+*.zip
+
+# Local working files that are not part of the submission
+data/clean_tests/
+output/human_view/
+output/human_view_mine/

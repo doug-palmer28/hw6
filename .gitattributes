@@ -1,0 +1,3 @@
+# Keep every file byte-for-byte. Git would otherwise rewrite line endings on Windows checkouts,
+# which breaks the PDF quotes, alters the .eml emails, and changes the handbook's token count.
+* -text

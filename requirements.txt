@@ -1,0 +1,5 @@
+pydantic-ai-slim[openai]==2.54.0
+openai==3.26.1
+python-dotenv==1.2.4
+pypdf==6.19.0
+tiktoken==0.14.0
