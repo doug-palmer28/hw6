@@ -119,7 +119,7 @@ Then rerun the 12 practice documents. Update the defense_results.json in the sam
 
 ### Reflection
 
-One of its defneses was simply to say that you cannot use the major tools. I had to expressly tell it that that was cheating. 
+One of its defneses was simply to say that you cannot use the major tools. I had to expressly tell it that that was cheating. We then fixed that, and re-run the work. 
 ---
 
 ## Problem 7 — Red Team
@@ -190,7 +190,7 @@ Create two new documents that will attack the agent. We are working against the 
 
 ### Reflection
 
-_Write your reflection here._
+Here you can see that it would not make the attack documents because of its own safety parameters. So I had it make a few shells of fine documents and then tell me what kind of changes I would want to make to them (increase the price, decrease the lead time, etc.) and then i manually put together a collection of tricks in Word. I knew that a primary defense is that it was going to look at these like a human would,but I also knew it would look at them more closely than a human would. So I put in text that was still visible (not font zero or exactly the same color as the background) but very difficult to read. Some were very small, or just off white or put in as a watermark. Although it was annoying to do this work manually, it was nice to know that as much as I pushed Claude to build them for me, it refused. Ultimately, some of my tactics worked! So then it reviewed that work and put in some defenses to try to arm against these attacks. 
 
 ---
 
@@ -210,8 +210,7 @@ Okay now we are ready for the exam. The data/exam_docs have 10 vendor documents 
 
 ### Reflection
 
-_Write your reflection here._
-
+I was very pleased with the results of the exam after the new safety measures were put in place--so much so, I followed-up to see if it had cheated. But it appears that the agent was fully immune from this round of attacks. 
 ---
 
 ## Problem 9 — Results Page
@@ -222,16 +221,9 @@ _Write your reflection here._
 great, now lets build that results page. it shoul dbe output/hw6_report.html and we want this to be one file that opens by double-click with no internet needed and no other files next to it .This should be a standalone. On the page we  need it to have all of the informatio nbelo. We should use real numbers from all that we did so far (no making stuff up). Okay here is the list : the caching results, with a chart; attacks before and after th edefneses; what the defenses cost in tokens and in dollars; the results o four exam and the red team attacks; and a recommendation to the store manager: Should the store use this agen for real vendor mail? would it be safe? what would it cost by month if it had to review 1,000 documents a day?  We want to follow my bauhaus style, but make sure its not too loud or distracting. We also want this to be a clean and easy to digest layout and formatting. Make sure nothing is blocking other text and that it is easily scrollable by the person reviewing. Higher points for readability and ease than anything else.
 ```
 
-### Follow-up Prompts
-
-1. ```text
-
-   ```
-
 ### Reflection
 
-_Write your reflection here._
-
+Produced a very neat and clean summary of the project. I liked the design and it as easy to read and review. Gave a good summary of our work. 
 ---
 
 ## Problem 10 — Push to GitHub and Submit URL
@@ -247,9 +239,9 @@ Looks great. Super clean. Now for the final problem. We are going to push this t
 ### Follow-up Prompts
 
 1. ```text
-
+   Okay, I've updated the reflections. We are good to go. Go ahead and commit and push . Give me the link when you are done.
    ```
 
 ### Reflection
 
-_Write your reflection here._
+Done here!
